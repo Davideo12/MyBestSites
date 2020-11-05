@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+body {
+    background-color: #dfeaf3 ;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #ffffff;
+}
+
+a {
+    margin: 10px;
+    padding: 10;
+    text-transform: capitalize;
+    color: #101010;
+}
+
+li {
+    margin: 10px;
+}
+
+button {
+    width: 100%;
+    border-style: none;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+    padding: 10px 5px;
+    transition: 2ms box-shadow;
+}
+
+button:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.20);
+}
+
+button:active {
+    outline: none;
+}
+
+.container {
+    margin: auto;
+    display: block;
+    max-width: 800px;
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(0deg, rgba(106,102,255,1) 0%, rgba(84,99,230,1) 100%);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+    margin: 20px;
+    padding: 5px;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
+    min-height: 300px;
+}
+
+.list-container {
+    display: block;
+}
