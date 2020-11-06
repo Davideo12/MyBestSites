@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,600&display=swap');
 
 body {
-    background-color: #dfeaf3 ;
-    font-family: 'Rubik', sans-serif;
+    background-color: #f0f0f0 ;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -11,23 +11,27 @@ h1, h2, h3, h4 {
     color: #ffffff;
 }
 
+p {
+    font-style: normal;
+}
+
 a {
     margin: 10px;
     padding: 10;
-    text-transform: capitalize;
+    text-decoration: none;
     color: #101010;
 }
 
-li {
-    margin: 10px;
+a:hover {
+    background-color: #f1f1f1;
 }
 
 button {
-    width: 100%;
     border-style: none;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
     padding: 10px 5px;
     transition: 2ms box-shadow;
+    background-color: #ffffff;
 }
 
 button:hover {
@@ -36,6 +40,26 @@ button:hover {
 
 button:active {
     outline: none;
+}
+
+#btn-del {
+    width: 100%;
+    margin: 2px;
+    background-color: #d10000ce;
+    color: #ffffff;
+}
+
+#btn-del:hover {
+    background-color: #d10000ea;
+}
+
+#btn {
+    width: 100%;
+    margin: 2px;
+}
+
+#btn:hover {
+    background-color: #f1f1f1;
 }
 
 .container {
@@ -49,7 +73,12 @@ button:active {
     background: linear-gradient(0deg, rgba(106,102,255,1) 0%, rgba(84,99,230,1) 100%);
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.10);
     margin: 20px;
-    padding: 5px;
+    padding: 10px;
+}
+
+.buttons-cont {
+    display: flex;
+    justify-content: center;
 }
 
 .card {
@@ -62,4 +91,29 @@ button:active {
 
 .list-container {
     display: block;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-container {
+    width: 130px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    border: 1px #f2f2f2 solid;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.10);
+}
+
+.icon {
+    width: 20px;
+    padding: 10px;
+}
+
+.url-ref {
+    font-style: italic;
+    font-size: 10px;
+    color: #3b3b3b9a;
 }
