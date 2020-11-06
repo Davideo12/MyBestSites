@@ -117,3 +117,16 @@ button:active {
     font-size: 10px;
     color: #3b3b3b9a;
 }
+
+.link {
+    font-size: 12px;
+    font-style: italic;
+    color: #1010108f;
+    text-decoration: underline;
+}
+
+.label-autor {
+    font-size: 12px;
+    font-style: italic;
+    color: #1010108f;
+}
